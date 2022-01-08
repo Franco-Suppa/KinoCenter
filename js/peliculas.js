@@ -5,7 +5,7 @@ let favExiste = document.getElementById('favExiste')
 
 
 //Carga de peliculas al body
-fetch('..//json/peliculas.json')
+fetch('../json/peliculas.json')
 .then(response => response.json())
 .then(dataPeliculas => {
    dataPeliculas.forEach((peliculaEnArray, indice)=> {
