@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/bootswatch.css">
+    <link rel="stylesheet" href="/estilos/style.css">
+    <script src="https://kit.fontawesome.com/2f7b4810b7.js" crossorigin="anonymous"></script>
+    <title>Kino-Center</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Kino Center</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio
+                    <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acercade.html">Acerca de</a>
+                </li>
+            </div>
+            </div>
+            <ul className="navbar-nav me-auto">  
+                <li className="nav-item " >
+                    <button id="botonFavs" data-bs-toggle="modal" data-bs-target="#idModal" class="btn btn-dark data-bs-toggle="modal" data-bs-target="#exampleModal""><i class="fas fa-star"></i></button>
+                </li>
+            </ul>  
+        </nav>
+        <div id="favExiste" class="fixed-top">
+        </div>
+    <div class="container-fluid containerPel">
+        <div id="contenedorPeliculas" class="row justify-content-center">                      
+        </div>
+    </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mis Favoritos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modal-body">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary" id="aleatorio">Ver Aleatorio</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="/js/clases.js"></script>
+<script src="/js/peliculas.js"></script>
+<script src="/js/eventos.js"></script>
+</body>
+</html>

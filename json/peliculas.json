@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "Matrix Resurrections",
+        "anio": "2021",
+        "categoria": "Accion / Sci-fi",
+        "img": "matrix-medium.jpg"
+    },
+  
+    {
+        "nombre": "Don't Look Up",
+        "anio": "2021",
+        "categoria": "Comedia / Drama / Sci-Fi",
+        "img": "dontlookup-medium.jpg"
+    },
+    
+    {
+        "nombre": "Resident Evil: Welcome to Raccoon City",
+        "anio": "2021",
+        "categoria": "Accion / Horror / Sci-Fi",
+        "img": "resident-medium.jpg"
+    },
+
+    {
+        "nombre": "The Unforgivable",
+        "anio": "2021",
+        "categoria": "Crime / Drama",
+        "img": "unforgivable-medium.jpg"
+    },
+
+    {
+        "nombre": "Encanto",
+        "anio": "2021",
+        "categoria": "Animacion / Comedia / Drama",
+        "img": "encanto-medium.jpg"
+    },
+
+    {
+        "nombre": "No Time to Die",
+        "anio": "2021",
+        "categoria": "Accion / Aventura / Suspenso",
+        "img": "notimetodie-medium.jpg"
+    },
+
+    {
+        "nombre": "The Last Duel",
+        "anio": "2021",
+        "categoria": "Accion / Drama / Historia",
+        "img": "thelastduel-medium.jpg"
+    },
+
+    {
+        "nombre": "Venom: Let There Be Carnage",
+        "anio": "2021",
+        "categoria": "Accion / Aventura / Sci-Fi",
+        "img": "venom-medium.jpg"
+    }
+]
